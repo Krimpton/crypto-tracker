@@ -1,0 +1,37 @@
+.slider {
+  position: relative;
+}
+
+.image-slider {
+  width: 400px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 0.7s;
+  color: white;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 0.7s;
+  transform: scale(1.4);
+}
+
+.circle-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  margin: 46px 6px 6px 6px;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.active {
+  background-color: #ffcc00;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=imageSlider.css.map */

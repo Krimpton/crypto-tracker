@@ -1,0 +1,92 @@
+.wrapper-section {
+  flex-wrap: nowrap;
+}
+.slider-section {
+  margin-bottom: 60px;
+}
+
+.coin-img-large {
+  border-radius: 140px;
+}
+
+.button-chart {
+  border: none;
+  background-color: #212121;
+  color: white;
+  font-size: 16px;
+
+  transition: .4s all;
+}
+
+.button-chart:hover {
+  background-color: gray;
+  border-radius: 4px;
+}
+
+.currency-name {
+  font-size: 32px;
+  height: 34px;
+}
+
+.currency-symbol {
+  font-size: 14px;
+}
+
+.currency-current-price {
+  font-size: 60px;
+  //width: 60%;
+  height: 80px;
+  border-bottom: 1px solid gray;
+}
+
+.price-changes-24h {
+  font-size: 24px;
+  border-bottom: 1px solid gray;
+  margin-left: 12px;
+}
+
+.percentage {
+  margin-top: 19px;
+  margin-left: 6px;
+}
+
+.price-changes {
+  width: 26%;
+}
+
+.price-changes-sum {
+  font-size: 22px;
+}
+
+.button-group-chart {
+  width: 100%;
+  margin-top: -24px;
+}
+
+.price-category {
+  margin-right: 99px;
+}
+
+.price-category-second {
+  margin-right: 109px;
+}
+
+.currency-supply {
+  margin-top: -70px;
+  height: 54px;
+  font-size: 24px;
+}
+
+.currency-ranks {
+  width: 60%;
+  height: 24px;
+  margin-top: 80px;
+}
+
+.currency-ranks-list {
+  margin-right: 44px;
+}
+
+.currency-ranks-list:first-child {
+  margin-left: 46px;
+}

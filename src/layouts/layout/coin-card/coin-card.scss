@@ -1,0 +1,123 @@
+.coin-block-rise {
+  background-color: rgb(33 44 32);
+  box-shadow: rgb(0 217 100) 1px 0 10px;
+  margin: 14px;
+  padding: 12px;
+  width: 280px;
+  height: 280px;
+
+  border: 2px solid rgb(0 217 100);
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.coin-block-rise:hover {
+  background-color: rgb(0 217 100 / 30%);
+}
+
+.coin-block-minus {
+  background-color: rgb(186 4 2 / 20%);
+  box-shadow: rgb(255 0 0) 1px 0 10px;
+  margin: 14px;
+  padding: 12px;
+  width: 280px;
+  height: 280px;
+
+  border: 2px solid rgb(255 0 0);
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.coin-block-minus:hover {
+  background-color: rgb(255 0 0 / 30%);
+
+}
+
+.coin-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 40px;
+}
+
+.coin-name {
+  font-size: 24px;
+}
+
+.price-delay {
+  width: 109.5%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.high-price {
+  background-color: rgb(0 217 100);
+  justify-content: center;
+  width: 50%;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: rgb(0 217 100) 1px 0 10px;
+}
+
+.low-price {
+  background-color: rgb(255 0 0);
+  width: 50%;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: rgb(255 0 0) 1px 0 10px;
+}
+
+.h24-price {
+  background-color: rgb(0 217 100);
+  border-radius: 10px;
+  box-shadow: rgb(0 217 100) 1px 0 10px;
+  font-size: 18px;
+  width: 80px;
+}
+
+.h24-price-minus {
+  background-color: rgb(255 0 0);
+  border-radius: 10px;
+  box-shadow: rgb(255 0 0) 1px 0 10px;
+  font-size: 18px;
+  width: 80px;
+}
+
+.alt-price {
+  border-radius: 2px;
+  border-top: none;
+}
+
+.price-footer {
+  margin-left: 150px;
+  margin-bottom: -24px;
+}
+
+.ath-price {
+  margin-right: 120px;
+  color: #0b4fda;
+  width: 100px;
+}
+
+.ath-alt-block {
+  width: 200px;
+  height: 100px;
+  margin-right: 20px;
+  padding-bottom: 4px;
+}

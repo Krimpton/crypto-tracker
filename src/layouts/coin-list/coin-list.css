@@ -1,0 +1,46 @@
+.wrapper {
+  border: 2px solid darkblue;
+  width: 200px;
+  height: 200px;
+}
+
+.search-wrapper {
+  margin-left: 354px;
+}
+
+.search-input {
+  background-color: #212121;
+  border-right: none;
+  color: white;
+  margin-left: 182px;
+  transition: all 0.2s;
+}
+
+.search-input:hover {
+  cursor: pointer;
+}
+
+.main-spinner {
+  font-size: 360px;
+  color: #838383;
+  margin-left: 520px;
+  margin-top: 400px;
+}
+
+.button-sort {
+  color: #838383;
+  background-color: #212121;
+  border: none;
+  box-shadow: 10px 3px 10px 6px #2a2a2a;
+  margin-left: 18px;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  transition: all 0.2s;
+}
+
+.button-sort:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=coin-list.css.map */
