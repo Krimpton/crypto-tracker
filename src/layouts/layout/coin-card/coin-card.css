@@ -34,6 +34,7 @@
   flex-direction: column;
   cursor: pointer;
   transition: all 0.2s;
+  z-index: 1;
 }
 
 .coin-block-minus:hover {
@@ -47,7 +48,7 @@
 }
 
 .coin-name {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .price-delay {
@@ -60,7 +61,7 @@
 .high-price {
   background-color: #00d964;
   justify-content: center;
-  width: 50%;
+  width: 49.96%;
   height: 24px;
   font-size: 16px;
   font-weight: 400;
@@ -69,7 +70,7 @@
 
 .low-price {
   background-color: red;
-  width: 50%;
+  width: 49.96%;
   height: 24px;
   font-size: 16px;
   font-weight: 400;
@@ -115,4 +116,32 @@
   padding-bottom: 4px;
 }
 
-/*# sourceMappingURL=coin.css.map */
+.coin-star {
+  font-size: 24px;
+  color: #ffcc00;
+  transition: all 0.4s;
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+
+.coin-star:hover {
+  color: white;
+  cursor: cell;
+}
+
+.coin-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.modal-window {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  position: absolute;
+}
+
+/*# sourceMappingURL=coin-card.css.map */

@@ -1,0 +1,37 @@
+.burger-menu {
+  position: fixed;
+  //width: 400px;
+  height: 400px;
+  top: 121px;
+  left: 0;
+
+  transform: translateX(-130%);
+  transition: all .4s;
+}
+
+.burger-menu.active-burger {
+  transform: translateX(0);
+}
+
+.burger-content {
+  background-color: rgba(33, 33, 33, 0.77);
+
+  transition: all .4s;
+}
+
+.burger-header {
+  font-size: 2rem;
+  color: #ffcc00;
+  border-bottom: 1px solid white;
+  width: 100%;
+  text-align: center;
+}
+
+.burger-item:first-child {
+  margin-top: 6px;
+}
+
+.burger-item {
+  color: white;
+  text-decoration: none;
+}

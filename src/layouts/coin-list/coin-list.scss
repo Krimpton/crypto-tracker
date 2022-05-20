@@ -6,14 +6,14 @@
 }
 
 .search-wrapper {
-  margin-left: 354px;
+  width: 96%;
+  margin-top: 14px;
 }
 
 .search-input {
   background-color: #212121;
   border-right: none;
   color: white;
-  margin-left: 182px;
 
   transition: all 0.2s;
 }
@@ -22,12 +22,9 @@
   cursor: pointer;
 }
 
-
 .main-spinner {
-  font-size: 360px;
-  color: #838383;
-  margin-left: 520px;
-  margin-top: 400px;
+  width: 220px;
+  height: 220px;
 }
 
 .button-sort {
@@ -35,10 +32,8 @@
   background-color: #212121;
   border: none;
   box-shadow: 10px 3px 10px 6px #2a2a2a;
-  margin-left: 18px;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  margin-right: 6px;
 
   transition: all 0.2s;
 }
@@ -47,6 +42,10 @@
   color: white;
 }
 
-.button-group {
+.active-button {
+  color: #ffcc00;
+}
 
+.input-wrapper {
+  padding-left: 10px;
 }

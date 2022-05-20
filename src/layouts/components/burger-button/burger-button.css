@@ -1,3 +1,49 @@
+.burger-nav {
+  position: fixed;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  left: 0;
+  top: 142px;
+}
 
+.burger-paragraph {
+  margin: 20px;
+}
+
+.burger-btn {
+  width: 50px;
+  height: 30px;
+  margin-left: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.burger-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 40px;
+  background-color: white;
+  height: 3px;
+}
+
+.burger-line {
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 40px;
+  background-color: white;
+  height: 3px;
+}
+
+.burger-btn:after {
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  width: 40px;
+  background-color: white;
+  height: 3px;
+}
 
 /*# sourceMappingURL=burger-button.css.map */

@@ -1,3 +1,14 @@
+.item-clear {
+  color: red;
+  cursor: pointer;
+}
 
+.item-name {
+  cursor: pointer;
+}
+
+.item-price-change {
+  margin-left: 6px;
+}
 
 /*# sourceMappingURL=watch-list-component.css.map */

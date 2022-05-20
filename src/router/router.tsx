@@ -1,17 +1,30 @@
-import React, {lazy} from 'react';
+import { lazy, Suspense } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Layout from '../layouts/layout/layout';
+import { WatchListContextProvider } from '../context/watchListContext';
 
-import {BrowserRouter, Route} from 'react-router-dom';
+const CoinList = lazy(() => import('../layouts/coin-list/coin-list'));
+const CoinDetails = lazy(() => import('../layouts/coin-details/coin-details'));
 
-const MainPage = lazy(() => import('./layouts/main-page/main-page'));
+const Routers = () => {
+  return (
+    <>
+      <WatchListContextProvider>
+        <Suspense
+          fallback={<div className="spinner-grow text-warning main-spinner" role="status" />}
+        >
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<CoinList />} />
+              <Route path="*" element={<CoinList />} />
+              <Route path="/coin-list" element={<CoinList />} />
+              <Route path="/coin/:id" element={<CoinDetails />} />
+            </Route>
+          </Routes>
+        </Suspense>
+      </WatchListContextProvider>
+    </>
+  );
+};
 
-const Router = () => {
-    return (
-        <div>
-            <BrowserRouter>
-                <Route path='/crypto-tracker' element={<MainPage/>}/>
-            </BrowserRouter>
-        </div>
-    );
-}
-
-export default Router;
+export default Routers;

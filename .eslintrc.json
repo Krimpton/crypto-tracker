@@ -4,21 +4,81 @@
         "es2021": true
     },
     "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react-hooks/recommended",
         "plugin:react/recommended",
-        "airbnb"
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:import/typescript",
+        "airbnb",
+        "plugin:prettier/recommended",
+        "prettier"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 13,
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "prettier"
     ],
     "rules": {
+       "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "no-param-reassign": 0,
+        "require-jsdoc": "off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/ban-types": "off",
+
+        "jsx-a11y/control-has-associated-label": [ 2, {
+            "labelAttributes": ["label"],
+            "controlComponents": ["CustomComponent"],
+            "ignoreElements": [
+                "audio",
+                "canvas",
+                "embed",
+                "input",
+                "textarea",
+                "tr",
+                "video"
+            ],
+            "ignoreRoles": [
+                "grid",
+                "listbox",
+                "menu",
+                "menubar",
+                "radiogroup",
+                "row",
+                "tablist",
+                "toolbar",
+                "tree",
+                "treegrid"
+            ],
+            "depth": 3
+        }],
+
+            "camelcase": ["warn"],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
     }
 }

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0783131c-8b0e-40f3-bbba-4266b25cb3b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/crypto-traker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/watchListContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/watchListContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/typed-hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/typed-hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-button-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-button-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/history-chart/history-chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/history-chart/history-chart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/progress-bar/progress-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/progress-bar/progress-bar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/slider-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/slider-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ICurrency.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ICurrency.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ICurrencyHistory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ICurrencyHistory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/currency-history-slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/currency-history-slice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/currency-slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/currency-slice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/watch-list-slice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/watch-list-slice.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="284" />
+    <option name="gitIntegration" value="true" />
+    <option name="naggedAbout" value="1" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="23K3qYTwV8yzwaZzYuo4T5rrAvd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\React\\crypto-tracker\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hesoy\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0783131c-8b0e-40f3-bbba-4266b25cb3b4" name="Changes" comment="" />
+      <created>1641469147453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641469147453</updated>
+      <workItem from="1641469149677" duration="236000" />
+      <workItem from="1641471440607" duration="4000" />
+      <workItem from="1641471578776" duration="342000" />
+      <workItem from="1641472154512" duration="471000" />
+      <workItem from="1641473308331" duration="100000" />
+      <workItem from="1641473427726" duration="116000" />
+      <workItem from="1641473558055" duration="3386000" />
+      <workItem from="1641480155846" duration="674000" />
+      <workItem from="1641567729450" duration="917000" />
+      <workItem from="1641650772554" duration="2000" />
+      <workItem from="1641736244993" duration="510000" />
+      <workItem from="1641824649074" duration="2660000" />
+      <workItem from="1641827347194" duration="1786000" />
+      <workItem from="1641829168051" duration="3253000" />
+      <workItem from="1641900708229" duration="595000" />
+      <workItem from="1641903024759" duration="12848000" />
+      <workItem from="1641923916738" duration="2664000" />
+      <workItem from="1641926800715" duration="3239000" />
+      <workItem from="1641986168132" duration="16920000" />
+      <workItem from="1642077567519" duration="13642000" />
+      <workItem from="1642152652214" duration="4141000" />
+      <workItem from="1642171006239" duration="16811000" />
+      <workItem from="1642260005747" duration="5681000" />
+      <workItem from="1642281583778" duration="12544000" />
+      <workItem from="1642327321099" duration="3146000" />
+      <workItem from="1642331833386" duration="16240000" />
+      <workItem from="1642418599433" duration="16356000" />
+      <workItem from="1642498716745" duration="17144000" />
+      <workItem from="1642610400233" duration="2646000" />
+      <workItem from="1642613117160" duration="1394000" />
+      <workItem from="1642615730786" duration="9027000" />
+      <workItem from="1642684889992" duration="12299000" />
+      <workItem from="1642759248562" duration="7693000" />
+      <workItem from="1642771104485" duration="6787000" />
+      <workItem from="1642846223927" duration="9421000" />
+      <workItem from="1642932272578" duration="6605000" />
+      <workItem from="1643026311591" duration="12212000" />
+      <workItem from="1643108090535" duration="14844000" />
+      <workItem from="1643192770915" duration="10600000" />
+      <workItem from="1643276036884" duration="12526000" />
+      <workItem from="1643365000185" duration="6320000" />
+      <workItem from="1643454970296" duration="4000" />
+      <workItem from="1643456064770" duration="3907000" />
+      <workItem from="1643540463377" duration="10279000" />
+      <workItem from="1643625706350" duration="14414000" />
+      <workItem from="1643711094378" duration="11867000" />
+      <workItem from="1643803857090" duration="5942000" />
+      <workItem from="1643814088614" duration="8362000" />
+      <workItem from="1643891216517" duration="6080000" />
+      <workItem from="1644009564646" duration="10728000" />
+      <workItem from="1644066377147" duration="4952000" />
+      <workItem from="1644150938165" duration="13110000" />
+      <workItem from="1644244001699" duration="7400000" />
+      <workItem from="1644322706524" duration="4528000" />
+      <workItem from="1644331419005" duration="1051000" />
+      <workItem from="1644350112128" duration="9607000" />
+      <workItem from="1644430573471" duration="6749000" />
+      <workItem from="1644486324157" duration="243000" />
+      <workItem from="1644489666153" duration="12895000" />
+      <workItem from="1644507738754" duration="5489000" />
+      <workItem from="1644585048256" duration="11809000" />
+      <workItem from="1644607266034" duration="15000" />
+      <workItem from="1644667498214" duration="11079000" />
+      <workItem from="1644740824880" duration="7956000" />
+      <workItem from="1644838474559" duration="1096000" />
+      <workItem from="1644867648225" duration="4676000" />
+      <workItem from="1644937023217" duration="3245000" />
+      <workItem from="1644944966534" duration="1672000" />
+      <workItem from="1644949230859" duration="48000" />
+      <workItem from="1644949319269" duration="482000" />
+      <workItem from="1644949825090" duration="7112000" />
+      <workItem from="1645032680580" duration="1390000" />
+      <workItem from="1645045546316" duration="4353000" />
+      <workItem from="1645113685004" duration="4228000" />
+      <workItem from="1645125277770" duration="579000" />
+      <workItem from="1645125887851" duration="761000" />
+      <workItem from="1645126789799" duration="130000" />
+      <workItem from="1645126934953" duration="475000" />
+      <workItem from="1645127428469" duration="5919000" />
+      <workItem from="1645203841773" duration="711000" />
+      <workItem from="1645205073409" duration="13387000" />
+      <workItem from="1645299115220" duration="5865000" />
+      <workItem from="1645348080281" duration="11043000" />
+      <workItem from="1645449525527" duration="8784000" />
+      <workItem from="1645521573129" duration="7981000" />
+      <workItem from="1645632497095" duration="13928000" />
+      <workItem from="1651491694202" duration="291000" />
+      <workItem from="1651492243265" duration="1117000" />
+      <workItem from="1651493519312" duration="237000" />
+      <workItem from="1651494524904" duration="229000" />
+      <workItem from="1651494768700" duration="2111000" />
+      <workItem from="1651505436828" duration="2545000" />
+      <workItem from="1651511805272" duration="686000" />
+      <workItem from="1651517891451" duration="295000" />
+      <workItem from="1651518208611" duration="504000" />
+      <workItem from="1651518740605" duration="724000" />
+      <workItem from="1651580883920" duration="1199000" />
+      <workItem from="1651582131174" duration="2086000" />
+      <workItem from="1651685558333" duration="2794000" />
+      <workItem from="1651689370128" duration="361000" />
+      <workItem from="1651727875899" duration="513000" />
+      <workItem from="1651730928848" duration="3141000" />
+      <workItem from="1651751424136" duration="3500000" />
+      <workItem from="1651763424327" duration="1199000" />
+      <workItem from="1651770947675" duration="1042000" />
+      <workItem from="1651909010709" duration="1676000" />
+      <workItem from="1652255708331" duration="391000" />
+      <workItem from="1652296355200" duration="1338000" />
+      <workItem from="1652335244792" duration="735000" />
+      <workItem from="1652336009782" duration="33000" />
+      <workItem from="1652336067829" duration="372000" />
+      <workItem from="1652336458719" duration="21188000" />
+      <workItem from="1652419946062" duration="18952000" />
+      <workItem from="1652602482842" duration="88000" />
+      <workItem from="1652602752099" duration="8801000" />
+      <workItem from="1652685887000" duration="634000" />
+      <workItem from="1652687761082" duration="4701000" />
+      <workItem from="1652700714355" duration="241000" />
+      <workItem from="1652700978578" duration="3259000" />
+      <workItem from="1652725834045" duration="2914000" />
+      <workItem from="1653027777720" duration="912000" />
+      <workItem from="1653028901122" duration="892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="crypto-tracker" type="b2602c69:ProjectViewProjectNode" />
+        <item name="crypto-tracker" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>

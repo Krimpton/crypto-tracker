@@ -50,16 +50,19 @@
 }
 
 .price-changes {
-  width: 26%;
+  min-width: 12%;
 }
 
 .price-changes-sum {
   font-size: 22px;
 }
 
-.button-group-chart {
-  width: 100%;
-  margin-top: -24px;
+.minus {
+  color: red;
+}
+
+.plus {
+  color: #00d964;
 }
 
 .price-category {
@@ -88,6 +91,33 @@
 
 .currency-ranks-list:first-child {
   margin-left: 46px;
+}
+
+.h24-price-minus {
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: red 1px 0 10px;
+  font-size: 18px;
+  width: 80px;
+}
+
+.h24-price {
+  background-color: #00d964;
+  border-radius: 10px;
+  box-shadow: #00d964 1px 0 10px;
+  font-size: 18px;
+  width: 80px;
+}
+
+.main-spinner {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  top: 50%;
+}
+
+.slider-block {
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=coin-details.css.map */
