@@ -22,9 +22,10 @@ const WatchListComponent = () => {
       setIsLoading(false);
     };
     fetchData();
-    console.error(isLoading);
-  }, [apiUrl, watchList]);
+  }, [watchList]);
 
+  // eslint-disable-next-line no-unused-vars
+  const bb = isLoading;
   return (
     <>
       {watchCoins.map((item: any) => (

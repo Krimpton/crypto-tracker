@@ -45,6 +45,11 @@ const CoinCard: FC<ICurrency> = ({
     const isExist = !!watchList.find((coin: any) => coin === id);
     return isExist ? 'star' : 'star_outline';
   }, [id, watchList]);
+
+  // const componentBody = useMemo<any>(() => {
+  //   const watchLists = watchList;
+  //   console.log(componentBody, watchLists);
+  // }, [watchList]);
   return (
     <>
       <div role="presentation">
@@ -77,6 +82,7 @@ const CoinCard: FC<ICurrency> = ({
             <div className="alt-price">atl: {atl?.toFixed(1)}</div>
             <div className="ath-price">ath: {ath?.toFixed(1)}</div>
           </div>
+          {console.log('rerender')}
         </div>
       </div>
     </>

@@ -10,6 +10,7 @@ import {
   filterByTopTraded,
 } from '../../store/reducers/currency-slice';
 import BurgerButton from '../components/burger-button/burger-button';
+import WatchListComponent from '../components/watch-list/watch-list-component';
 
 const CoinList: FC = () => {
   const dispatch = useAppDispatch();
@@ -17,7 +18,7 @@ const CoinList: FC = () => {
 
   useEffect(() => {
     dispatch(fetchCurrency());
-  }, []);
+  }, [dispatch]);
 
   const [search, setSearch] = useState<string>('');
   const searchHandler = useCallback(
@@ -25,16 +26,17 @@ const CoinList: FC = () => {
     []
   );
 
+  // const data = useMemo(() => filteredCoins(currency), [currency]);
+
   const filteredCoins = currency.filter((coin) =>
     coin.id.toLowerCase().includes(search.toLowerCase())
   );
-
   return (
     <>
       <>
         <BurgerButton />
       </>
-      {/* <WatchListComponent /> */}
+      <WatchListComponent />
       <div className="container-fluid search-wrapper">
         {/* <dropdown selected={selected} setSelected={setSelected} /> */}
         <button

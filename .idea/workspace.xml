@@ -5,65 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0783131c-8b0e-40f3-bbba-4266b25cb3b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/crypto-traker.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/watchListContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/watchListContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/typed-hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/typed-hooks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-button-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-button-data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ticker/ticker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ticker/ticker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/dropdown/dropdown.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/history-chart/history-chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/history-chart/history-chart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/progress-bar/progress-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/progress-bar/progress-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/image-slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/slider/slider-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/slider/slider-data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ICurrency.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ICurrency.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ICurrencyHistory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ICurrencyHistory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/currency-history-slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/currency-history-slice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/currency-slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/currency-slice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/watch-list-slice.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/watch-list-slice.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +18,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="284" />
     <option name="gitIntegration" value="true" />
     <option name="naggedAbout" value="1" />
   </component>
@@ -106,11 +52,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\React\\crypto-tracker\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -275,7 +223,25 @@
       <workItem from="1652700978578" duration="3259000" />
       <workItem from="1652725834045" duration="2914000" />
       <workItem from="1653027777720" duration="912000" />
-      <workItem from="1653028901122" duration="892000" />
+      <workItem from="1653028901122" duration="2402000" />
+      <workItem from="1653034732787" duration="1575000" />
+      <workItem from="1653065488455" duration="1906000" />
+      <workItem from="1653111806595" duration="678000" />
+      <workItem from="1653116641053" duration="630000" />
+      <workItem from="1653122352516" duration="594000" />
+      <workItem from="1653218191468" duration="6384000" />
+      <workItem from="1653289988102" duration="1792000" />
+      <workItem from="1653306976374" duration="3847000" />
+      <workItem from="1653318980862" duration="3104000" />
+      <workItem from="1653323033456" duration="982000" />
+      <workItem from="1653373590327" duration="5357000" />
+      <workItem from="1653411635201" duration="1171000" />
+      <workItem from="1653415301618" duration="1499000" />
+      <workItem from="1653422208674" duration="633000" />
+      <workItem from="1653488132371" duration="13190000" />
+      <workItem from="1653578199535" duration="1550000" />
+      <workItem from="1653632885537" duration="5404000" />
+      <workItem from="1653898023489" duration="305000" />
     </task>
     <servers />
   </component>
