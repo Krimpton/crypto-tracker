@@ -13,10 +13,10 @@ const Ticker = () => {
 
   const [tickerListData] = useState([
     'bitcoin',
+    'dogecoin',
     'ripple',
-    'dogeciun',
     'xrp',
-    'etherium',
+    'ethereum',
     'wrapped',
   ]);
 
