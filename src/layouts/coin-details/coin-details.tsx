@@ -12,7 +12,6 @@ const CoinDetails = () => {
   const { id } = useParams();
   const dispatch = useAppDispatch();
   const [coinData, setCoinData] = useState<any>();
-
   const { isLoading } = useAppSelector((state) => state.currencyHistoryReducer);
 
   const baseUrl = 'https://api.coingecko.com/api/v3';
@@ -25,7 +24,7 @@ const CoinDetails = () => {
       dispatch(fetchCurrencyHistory());
     };
     fetchCoinData();
-  }, [apiUrl, dispatch]);
+  }, []);
   return (
     <>
       {isLoading && (

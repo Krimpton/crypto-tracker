@@ -10,7 +10,7 @@ import {
   filterByTopTraded,
 } from '../../store/reducers/currency-slice';
 import BurgerButton from '../components/burger-button/burger-button';
-import WatchListComponent from '../components/watch-list/watch-list-component';
+import Ticker from '../../components/ticker/ticker';
 
 const CoinList: FC = () => {
   const dispatch = useAppDispatch();
@@ -26,26 +26,31 @@ const CoinList: FC = () => {
     []
   );
 
+  const [active, setActive] = useState<boolean>(false);
   // const data = useMemo(() => filteredCoins(currency), [currency]);
-
+  console.log(active);
   const filteredCoins = currency.filter((coin) =>
     coin.id.toLowerCase().includes(search.toLowerCase())
   );
   return (
     <>
-      <>
-        <BurgerButton />
-      </>
-      <WatchListComponent />
+      <BurgerButton />
+      <Ticker />
       <div className="container-fluid search-wrapper">
         {/* <dropdown selected={selected} setSelected={setSelected} /> */}
-        <button
-          type="submit"
-          className="button-sort default active-button"
-          onClick={() => dispatch(filterByMarketCap())}
+        <span
+          role="presentation"
+          className={`button-border${active ? 'button-active-button' : ''}`}
+          onClick={() => setActive(!active)}
         >
-          Market Cap
-        </button>
+          <button
+            type="submit"
+            className="button-sort default"
+            onClick={() => dispatch(filterByMarketCap())}
+          >
+            Market Cap
+          </button>
+        </span>
         <button
           type="submit"
           className="button-sort traded"
@@ -77,25 +82,27 @@ const CoinList: FC = () => {
         </span>
       </div>
 
-      {isLoading && <div className="spinner-grow text-warning main-spinner" />}
-      {error && <div>{error}</div>}
-      {filteredCoins.map((coin) => (
-        <div role="presentation" key={coin.id}>
-          <CoinCard
-            id={coin.id}
-            name={coin.name}
-            image={coin.image}
-            symbol={coin.symbol}
-            current_price={coin.current_price}
-            high_24h={coin.high_24h}
-            low_24h={coin.low_24h}
-            market_cap_change_percentage_24h={coin.market_cap_change_percentage_24h}
-            atl={coin.atl}
-            ath={coin.ath}
-            market_cap={coin.market_cap}
-          />
-        </div>
-      ))}
+      <div className="card-container d-flex justify-content-center flex-md-row flex-wrap">
+        {isLoading && <div className="spinner-grow text-warning main-spinner" />}
+        {error && <div>{error}</div>}
+        {filteredCoins.map((coin) => (
+          <div role="presentation" key={coin.id}>
+            <CoinCard
+              id={coin.id}
+              name={coin.name}
+              image={coin.image}
+              symbol={coin.symbol}
+              current_price={coin.current_price}
+              high_24h={coin.high_24h}
+              low_24h={coin.low_24h}
+              market_cap_change_percentage_24h={coin.market_cap_change_percentage_24h}
+              atl={coin.atl}
+              ath={coin.ath}
+              market_cap={coin.market_cap}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 };

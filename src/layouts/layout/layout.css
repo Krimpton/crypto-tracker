@@ -35,9 +35,9 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background: #ffcc00;
-  background: radial-gradient(circle, rgba(255, 204, 0, 0.1) 0%, #212121 65%, #212121 100%);
-  box-shadow: #ffcc00 1px 0 1px;
+  background: rgb(255, 204, 0);
+  background: radial-gradient(circle, rgba(255, 204, 0, 0.1) 0%, rgb(33, 33, 33) 65%, rgb(33, 33, 33) 100%);
+  box-shadow: rgb(255, 204, 0) 1px 0 1px;
 }
 
 .logo-icon {
@@ -63,14 +63,14 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   flex: 1 1 auto;
-  width: 51%;
+  padding: 0 !important;
 }
 
 footer {
   width: 100%;
-  background: #212121;
-  background: radial-gradient(circle, #212121 0%, #212121 0%, rgba(255, 204, 0, 0.1) 100%);
-  box-shadow: #ffcc00 1px 0 1px;
+  background: rgb(33, 33, 33);
+  background: radial-gradient(circle, rgb(33, 33, 33) 0%, rgb(33, 33, 33) 0%, rgba(255, 204, 0, 0.1) 100%);
+  box-shadow: rgb(255, 204, 0) 1px 0 1px;
 }
 
 .footer-block-wrapper {
@@ -96,53 +96,42 @@ footer {
   .logo-icon {
     font-size: 30px;
   }
-
   .logo-word {
     font-size: 20px;
   }
-
   .logo-title {
     font-size: 20px;
   }
-
   .search-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .input-wrapper {
     padding-top: 10px;
   }
-
   .button-sort {
     font-size: 14px;
     margin-top: 4px;
   }
-
   .item-name {
     font-size: 12px;
   }
-
   .item-price-change {
     font-size: 12px;
   }
-
   .item-name {
     font-size: 16px;
   }
-
   .item-price-change {
     font-size: 14px;
   }
-
   .burger-header {
     font-size: 10px;
     padding-left: 60px;
     padding-top: 8px;
   }
-
   .footer-item-block {
     font-size: 10px;
   }
@@ -151,46 +140,36 @@ footer {
   .logo-icon {
     font-size: 50px;
   }
-
   .logo-word {
     font-size: 40px;
   }
-
   .logo-title {
     font-size: 40px;
   }
-
   .search-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   .input-wrapper {
     padding-top: 10px;
   }
-
   .button-sort {
     font-size: 14px;
   }
-
   .item-name {
     font-size: 12px;
   }
-
   .item-price-change {
     font-size: 12px;
   }
-
   .item-name {
     font-size: 16px;
   }
-
   .item-price-change {
     font-size: 14px;
   }
-
   .burger-header {
     font-size: 10px;
     padding-left: 60px;
@@ -201,38 +180,31 @@ footer {
   .logo-icon {
     font-size: 60px;
   }
-
   .logo-word {
     font-size: 50px;
   }
-
   .logo-title {
     font-size: 50px;
   }
-
   .search-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-
   .input-wrapper {
     display: flex;
     justify-content: center;
     padding-top: 0;
   }
-
   .button-sort {
     width: 70px;
     height: 30px;
     font-size: 10px;
   }
-
   .item-name {
     font-size: 22px;
   }
-
   .item-price-change {
     font-size: 20px;
   }
@@ -241,39 +213,31 @@ footer {
   .logo-icon {
     font-size: 80px;
   }
-
   .logo-word {
     font-size: 60px;
   }
-
   .logo-title {
     font-size: 60px;
   }
-
   .search-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-
   .input-wrapper {
     padding-top: 0;
   }
-
   .button-sort {
     width: 90px;
     height: 30px;
     font-size: 12px;
   }
-
   .burger-item-wrapper {
     margin-left: 0;
   }
-
   .item-name {
     font-size: 22px;
   }
-
   .item-price-change {
     font-size: 20px;
   }
@@ -282,43 +246,34 @@ footer {
   .logo-icon {
     font-size: 120px;
   }
-
   .logo-word {
     font-size: 80px;
   }
-
   .logo-title {
     font-size: 80px;
   }
-
   .search-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-
   .input-wrapper {
     padding-top: 0;
   }
-
   .button-sort {
     width: 90px;
     height: 30px;
     font-size: 14px;
   }
-
   .burger-item-wrapper {
     margin-left: 60px;
   }
-
   .item-name {
     font-size: 22px;
   }
-
   .item-price-change {
     font-size: 20px;
   }
-
   .footer-item-block {
     font-size: 18px;
   }

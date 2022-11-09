@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { ICurrency } from '../../models/ICurrency';
 import { fetchCurrency } from './action-creators';
 
-interface ICurrencyState {
+export interface ICurrencyState {
   currency: ICurrency[];
   isLoading: boolean;
   error: string;

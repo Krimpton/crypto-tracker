@@ -23,7 +23,7 @@ const WatchListComponent = () => {
     };
     fetchData();
   }, [watchList]);
-
+  // TODO fix dummy element in the arr
   // eslint-disable-next-line no-unused-vars
   const bb = isLoading;
   return (

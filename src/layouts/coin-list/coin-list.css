@@ -6,7 +6,7 @@
 
 .search-wrapper {
   width: 96%;
-  margin-top: 14px;
+  margin-top: 8px;
 }
 
 .search-input {
@@ -45,6 +45,10 @@
 
 .input-wrapper {
   padding-left: 10px;
+}
+
+.card-container {
+  width: 65%;
 }
 
 /*# sourceMappingURL=coin-list.css.map */

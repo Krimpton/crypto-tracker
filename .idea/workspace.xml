@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0783131c-8b0e-40f3-bbba-4266b25cb3b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ticker/ticker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ticker/ticker.tsx" afterDir="false" />
+    <list default="true" id="0783131c-8b0e-40f3-bbba-4266b25cb3b4" name="Changes" comment="CHANGES: Coin ticker was adding; ALPHA-01">
+      <change afterPath="$PROJECT_DIR$/src/components/ticker/ticker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ticker/ticker.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ITrending.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/ticker-list-slice.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ticker/ticker.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ticker/ticker.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ticker/ticker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ticker/ticker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-details/coin-details.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/coin-list/coin-list.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/burger-button/burger-menu/burger-menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/components/watch-list/watch-list-component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/coin-card/coin-card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/layout/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/currency-slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/currency-slice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +78,8 @@
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\React\\crypto-tracker\\node_modules\\typescript\\lib&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/hesoyam.exe/Documents/GitHub/crypto-tracker/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -242,6 +262,45 @@
       <workItem from="1653578199535" duration="1550000" />
       <workItem from="1653632885537" duration="5404000" />
       <workItem from="1653898023489" duration="305000" />
+      <workItem from="1663495363464" duration="1133000" />
+      <workItem from="1663524523869" duration="910000" />
+      <workItem from="1663591251881" duration="33000" />
+      <workItem from="1663591299098" duration="1451000" />
+      <workItem from="1663619421636" duration="1656000" />
+      <workItem from="1663621334993" duration="111000" />
+      <workItem from="1663621464969" duration="616000" />
+      <workItem from="1663622084742" duration="9347000" />
+      <workItem from="1663703146878" duration="8876000" />
+      <workItem from="1663792294939" duration="1258000" />
+      <workItem from="1663868954683" duration="658000" />
+      <workItem from="1663934342675" duration="12032000" />
+      <workItem from="1664116160388" duration="389000" />
+      <workItem from="1664405762625" duration="1030000" />
+      <workItem from="1664483634057" duration="852000" />
+      <workItem from="1664580622100" duration="997000" />
+      <workItem from="1664647481005" duration="8180000" />
+      <workItem from="1664725507220" duration="2015000" />
+      <workItem from="1664750222882" duration="10854000" />
+      <workItem from="1664918940429" duration="1810000" />
+      <workItem from="1665339550103" duration="614000" />
+      <workItem from="1665424159599" duration="2087000" />
+      <workItem from="1665437239348" duration="8546000" />
+      <workItem from="1665519406892" duration="155000" />
+      <workItem from="1665519591371" duration="3972000" />
+      <workItem from="1665761740761" duration="10329000" />
+      <workItem from="1665826905909" duration="21885000" />
+      <workItem from="1665952535139" duration="1575000" />
+      <workItem from="1666029304772" duration="48609000" />
+      <workItem from="1666462639393" duration="17260000" />
+      <workItem from="1666628901572" duration="11087000" />
+      <workItem from="1667154795738" duration="8000" />
+      <workItem from="1667157470637" duration="57000" />
+      <workItem from="1667164010940" duration="6940000" />
+      <workItem from="1667327633115" duration="2711000" />
+      <workItem from="1667384057541" duration="29242000" />
+      <workItem from="1667763190421" duration="1496000" />
+      <workItem from="1667927510098" duration="504000" />
+      <workItem from="1667936601225" duration="13201000" />
     </task>
     <servers />
   </component>
@@ -267,6 +326,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="CHANGES: Coin ticker was adding; ALPHA-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHANGES: Coin ticker was adding; ALPHA-01" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

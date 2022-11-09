@@ -17,7 +17,13 @@ const CoinCard: FC<ICurrency> = ({
 }) => {
   const navigate = useNavigate();
   const { watchList, addCoin, deleteCoin } = useContext(WatchListContext);
-  const [fav, setFav] = useState<boolean>(false);
+
+  const boolType = useMemo(() => {
+    const isExist = !!watchList.find((coin: any) => coin === id);
+    return isExist;
+  }, [id, watchList]);
+
+  const [fav, setFav] = useState<any>(boolType);
 
   const redirectCoinPage = () => {
     navigate(`/coin/${id}`);
@@ -26,15 +32,13 @@ const CoinCard: FC<ICurrency> = ({
   const AddComponent = (e: any) => {
     e.stopPropagation();
     addCoin(id);
-    setFav(true);
-    console.log(fav);
+    setFav(!fav);
   };
 
   const DeleteComponent = (e: any) => {
     e.stopPropagation();
     deleteCoin(id);
     setFav(!fav);
-    console.log(fav);
   };
 
   const condition = market_cap_change_percentage_24h < 0 ? 'coin-block-minus' : 'coin-block-rise';
@@ -46,10 +50,6 @@ const CoinCard: FC<ICurrency> = ({
     return isExist ? 'star' : 'star_outline';
   }, [id, watchList]);
 
-  // const componentBody = useMemo<any>(() => {
-  //   const watchLists = watchList;
-  //   console.log(componentBody, watchLists);
-  // }, [watchList]);
   return (
     <>
       <div role="presentation">

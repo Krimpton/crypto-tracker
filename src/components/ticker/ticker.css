@@ -1,20 +1,15 @@
-$duration: 30s;
-
 @keyframes ticker {
-  0%{
+  0% {
     transform: translate3d(0, 0, 0);
-
   }
-  100%{
+  100% {
     transform: translate3d(-5740px, 0, 0);
   }
 }
-
 .ticker-wrap {
   box-sizing: content-box;
   width: 100%;
   height: 44px;
-  //background-color: #ada5a5;
   border: 1px solid gray;
   overflow: hidden;
 }
@@ -23,11 +18,10 @@ $duration: 30s;
   box-sizing: content-box;
   display: inline-block;
   white-space: nowrap;
-
   animation-name: ticker;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0,0,1,1);
-  animation-duration: $duration;
+  animation-timing-function: cubic-bezier(0, 0, 1, 1);
+  animation-duration: 30s;
 }
 
 .ticker-element {
@@ -37,3 +31,5 @@ $duration: 30s;
   margin-right: 300px;
   margin-left: 300px;
 }
+
+/*# sourceMappingURL=ticker.css.map */
